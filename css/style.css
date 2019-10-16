@@ -6,7 +6,7 @@ body{
     text-align: left;
 }
 p{
-    font-family: 'Roboto';
+    font-family: 'IBM Plex Mono', monospace;
     font-style: normal;
     font-weight: 200;
     font-size: 13px;
@@ -59,7 +59,7 @@ h2 {
 }
 
 h3 {
-   font-family: 'roboto';
+   font-family:'IBM Plex Mono', monospace;
    color: black;
    padding-left: 40px;
    padding-right: 40px;
@@ -127,6 +127,7 @@ footer a{
 }
 
 #design-selection a, li{
+    font-family: 'IBM Plex Mono', monospace;
     text-decoration: none;
     list-style-type: none;
     color: grey
