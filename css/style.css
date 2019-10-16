@@ -12,14 +12,11 @@ p{
     src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
     line-height: 1.2;
-    
-   
 }
 header {
     height: 300px;
     width: 100%;
     background-image: url(huntington.png);
-
 }
 
 h1{
@@ -37,7 +34,6 @@ h1{
     left: 0;
     top: 10%;
     width: 100%;
-
 }
 
 h2 {
@@ -55,7 +51,6 @@ h2 {
     top: 25%;
     width: 100%;
     background-image: url(../img/zen.svg);
-
 }
 
 h3 {
@@ -71,11 +66,8 @@ h3 {
      color: white;
      margin: 0px;
      padding: 5px;
-     /* left: 0;
-     top: 10%;
-     width: 100%; */
-  
 }
+
 .benefits{
     color: white;
     background-color: rgba(62, 133, 62, 0.568);
@@ -85,10 +77,10 @@ h3 {
     color: white;
     padding:5px;
 }
+
 .benefits{
     padding: 5px;
     width:100%;
- 
 }
 
 #zen-requirements [role="contentinfo"] {
@@ -116,7 +108,6 @@ footer{
 footer a{
     color: white;
     font-size: 40px;
-
 }
 
 #design-selection{
@@ -137,12 +128,12 @@ footer a{
     padding: 20px;
     color:grey;
     text-align:left;
-
 }
+
 #zen-resources a{
- text-decoration: none;
- color: grey;
- text-align: center
+    text-decoration: none;
+    color: grey;
+    text-align: center
 }
 
 #side-bar [role="complementary"] {
