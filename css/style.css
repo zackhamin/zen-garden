@@ -2,28 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-
-
+body{
+    text-align: left;
+}
 p{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 200;
+    font-size: 13px;
     src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
     line-height: 1.2;
+    margin: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
 header {
     height: 300px;
-    width: 100%;
     background-image: url(huntington.png);
+    
 }
 
 h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 60px;
     src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
     text-shadow: 4px 4px black;
@@ -37,6 +42,7 @@ h1{
 }
 
 h2 {
+    background-image: url(zen.svg);
     font-family: 'Satisfy';
     font-style: normal;
     font-weight: 400;
@@ -47,25 +53,28 @@ h2 {
     background-size: contain;
     position: absolute;
     color: white;
-    left: 0;
+    left: 40%;
     top: 25%;
-    width: 100%;
-    background-image: url(../img/zen.svg);
+    width: 25%;
 }
 
 h3 {
-    color: black;
+   font-family: 'roboto';
+   color: black;
+   padding-left: 40px;
+   padding-right: 40px;
+   
 }
 
 .participation{
      color: white;
      background-color: rgba(62, 133, 62, 0.568);
      background-image: url(bamboo.png);
-     height: 230px;
+     height: 150px;
      width:100%;
      color: white;
      margin: 0px;
-     padding: 5px;
+     padding: 0px;
      
 }
 
@@ -73,15 +82,13 @@ h3 {
     color: white;
     background-color: rgba(62, 133, 62, 0.568);
     background-image: url(bamboo.png);
-    height: 130px;
-    width:100%;
+    height: 100px;
     color: white;
     padding:5px;
 }
 
 #zen-requirements [role="contentinfo"] {
     background-color: rgba(62, 133, 62, 0.568);
-    width:100%;
     text-align: center;
     padding:30px;
     color:grey; 
@@ -100,10 +107,9 @@ h3 {
 footer{
     background-color:darkgreen;
     text-align: center;
-    padding: 5px;
     height: 40px;
-    width:100%;
     margin:0px;
+    padding: 5px;
 }
 
 footer a{
@@ -114,7 +120,6 @@ footer a{
 
 #design-selection{
     background-color:  rgb(222, 235, 164);
-    width: 100%;
     margin: 0px;
     text-align: center;
     padding: 10px;
@@ -144,7 +149,6 @@ footer a{
 
 #design-archives{
     background-color: whitesmoke;
-    width: 100% ;
     text-align: center;
     padding: 5px;
     height: 80px;
@@ -165,7 +169,6 @@ footer a{
     background-image: url(bamboo.png);
     padding: 5px;
     text-align: center;
-    width: 100%;
 }
 
 #zen-resources h3{
