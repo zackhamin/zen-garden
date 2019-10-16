@@ -66,6 +66,7 @@ h3 {
      color: white;
      margin: 0px;
      padding: 5px;
+     
 }
 
 .benefits{
@@ -78,31 +79,30 @@ h3 {
     padding:5px;
 }
 
-.benefits{
-    padding: 5px;
-    width:100%;
-}
-
 #zen-requirements [role="contentinfo"] {
     background-color: rgba(62, 133, 62, 0.568);
     width:100%;
     text-align: center;
-    padding:40px;
+    padding:30px;
     color:grey; 
+    margin: 0px;
+    
 }
 
 #zen-requirements [role="contentinfo"] a {
     color:white;
     font-family:'satisfy',cursive;
     font-size: 40px;
+    padding: 20px;
 }
 
 footer{
-    background-color:rgba(62, 133, 62, 0.568);
-    padding:40px;
+    background-color:darkgreen;
     text-align: center;
+    padding: 20px;
+    height: 40px;
     width:100%;
-    margin:auto;
+    margin:0px;
 }
 
 footer a{
@@ -112,22 +112,46 @@ footer a{
 
 #design-selection{
     column-count: 2;
+    columns: 50%em;
     background-color:  whitesmoke;
+    width: 100%;
+    margin: 0px;
+    
 }
 
+#design-selection a{
+    text-decoration: none;
+}
+
+#design-selection h3{
+    display:none;
+}
 
 #design-archives{
     column-count: 2;
     background-color: whitesmoke;
+    width: 100%  
+}
+#design-archives a {
+    text-decoration: none;
+}
+
+#design-archives h3 {
+    display: none;   
 }
 
 #zen-resources{
     column-count: 2;
     background-color: rgba(62, 133, 62, 0.568);
     background-image: url(bamboo.png);
-    padding: 20px;
+    padding: 30px;
     color:grey;
     text-align:left;
+    width: 100%;
+}
+
+#zen-resources h3{
+    display:none;
 }
 
 #zen-resources a{
@@ -136,6 +160,8 @@ footer a{
     text-align: center
 }
 
-#side-bar [role="complementary"] {
-    display:none;
-}
+
+
+
+
+
