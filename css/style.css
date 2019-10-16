@@ -93,13 +93,14 @@ h3 {
     color:white;
     font-family:'satisfy',cursive;
     font-size: 40px;
-    padding: 20px;
+    padding: 5px;
+    text-decoration: none;
 }
 
 footer{
     background-color:darkgreen;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     height: 40px;
     width:100%;
     margin:0px;
@@ -108,32 +109,50 @@ footer{
 footer a{
     color: white;
     font-size: 40px;
+    text-decoration: none;
 }
 
 #design-selection{
-    column-count: 2;
-    columns: 50%em;
-    background-color:  whitesmoke;
+    background-color:  rgb(222, 235, 164);
     width: 100%;
     margin: 0px;
+    text-align: center;
+    padding: 10px;
     
 }
 
-#design-selection a{
+#design-selection a, li{
     text-decoration: none;
+    list-style-type: none;
+    color: grey
 }
+
+[role= navigation] li{
+    outline: none;
+    display: inline-block;
+    width:48%;
+    text-align: center;
+    line-height: 3;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 0PX;
+ }
 
 #design-selection h3{
     display:none;
 }
 
 #design-archives{
-    column-count: 2;
     background-color: whitesmoke;
-    width: 100%  
+    width: 100% ;
+    text-align: center;
+    padding: 5px;
+    height: 80px;
+    margin: 0px;
 }
 #design-archives a {
     text-decoration: none;
+    color: grey;
 }
 
 #design-archives h3 {
@@ -141,12 +160,11 @@ footer a{
 }
 
 #zen-resources{
-    column-count: 2;
+    columns: 100px 2;
     background-color: rgba(62, 133, 62, 0.568);
     background-image: url(bamboo.png);
-    padding: 30px;
-    color:grey;
-    text-align:left;
+    padding: 5px;
+    text-align: center;
     width: 100%;
 }
 
@@ -159,6 +177,9 @@ footer a{
     color: grey;
     text-align: center
 }
+
+
+
 
 
 
